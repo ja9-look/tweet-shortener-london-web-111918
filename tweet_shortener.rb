@@ -31,7 +31,7 @@ def word_substituter(tweet)
   words.join(" ")  
 end
 
-def bulk_tweet_shortner(tweet)
+def bulk_tweet_shortener(tweet)
   shorten = dictionary
   words = tweet.split(" ")
     words.collect do |word|
