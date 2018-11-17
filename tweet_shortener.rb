@@ -33,8 +33,7 @@ end
 
 def bulk_tweet_shortener(tweet)
   shorten = dictionary
-  words = tweet.split(" ")
-    words.collect do |word|
+    tweet.collect do |word|
       if word == key
         word.replace(value)
       end
