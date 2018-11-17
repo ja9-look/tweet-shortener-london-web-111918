@@ -2,7 +2,7 @@
 
 
 def dictionary
-  dictionary = {
+  shorten = {
     "hello" => "hi",
     "to"=> "2",
     "too"=> "2",
@@ -19,10 +19,10 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  dictionary = shorten
+  shorten = dictionary
   words = tweet.split(" ")
     words.collect do |word| 
-      shorten.collect do |key, value|
+      dictionary.collect do |key, value|
         if word == key
           word.replace(value)
         end
