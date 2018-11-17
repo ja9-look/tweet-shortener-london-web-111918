@@ -1,6 +1,6 @@
 # Write your code here.
 
-def dictionary{
+def dictionary
   :words = {
     "hello" => "hi",
     "to" => 2,
@@ -12,6 +12,5 @@ def dictionary{
     "at" => "@",
     "and" => "&"
   }
-}
-  
+
 end
