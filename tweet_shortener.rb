@@ -2,7 +2,7 @@
 
 
 def dictionary
-  shorten = {
+  dictionary = {
     "hello" => "hi",
     "to"=> "2",
     "too"=> "2",
@@ -19,10 +19,10 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  shorten = dictionary
+  dictionary = shorten
   words = tweet.split(" ")
     words.collect do |word| 
-      dictionary.collect do |key, value|
+      shorten.collect do |key, value|
         if word == key
           word.replace(value)
         end
@@ -32,6 +32,7 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortner(tweet)
-  words = tweet.spliot(" ")
-  
+  shorten = 
+  words = tweet.split(" ")
+    
 end
