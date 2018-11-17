@@ -32,6 +32,6 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortener(tweet_array)
-  shorten = dictionary
-  tweet_array
+  tweet_array.collect do |word|
+    
 end
