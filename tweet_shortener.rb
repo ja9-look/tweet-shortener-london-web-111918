@@ -32,7 +32,7 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortner(tweet)
-  shorten = 
+  shorten = dictionary
   words = tweet.split(" ")
     
 end
