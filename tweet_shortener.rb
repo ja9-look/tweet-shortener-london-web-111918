@@ -20,5 +20,6 @@ def word_substituter(tweet)
   word = tweet.split(" ")
   if word == key
     word.replace(value)
-    
+  end
+  
 end
