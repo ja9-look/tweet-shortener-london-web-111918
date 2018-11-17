@@ -18,5 +18,6 @@ end
 def word_substituter(tweet)
   dict = dictionary
   word = tweet.split(" ")
-  if 
+  if word == key
+    key = value
 end
