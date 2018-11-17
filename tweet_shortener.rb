@@ -23,5 +23,7 @@ def word_substituter(tweet)
       if word == key
         word.replace(value)
       end
-  
+    end
+  end
+  word.join (" ")  
 end
