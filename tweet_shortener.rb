@@ -19,5 +19,6 @@ def word_substituter(tweet)
   dict = dictionary
   word = tweet.split(" ")
   if word == key
-    key = value
+    word.replace(value)
+    
 end
