@@ -39,5 +39,5 @@ def bulk_tweet_shortner(tweet)
         word.replace(value)
       end
     end
-    words.join(" ")
+    puts words.join(" ")
 end
